@@ -2,7 +2,6 @@ import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
 import SpaceMono from '$lib/SpaceMono-Bold.ttf';
 import { read } from '$app/server';
-import { page } from '$app/stores';
 
 const fontData = read(SpaceMono).arrayBuffer();
 
